@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>960_12 Grid</title>
+            <style type="text/css">
+                * {
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                p {
+                    font-size: 16pt;
+                }
+                h1 {
+                    background-color: #ff0256;
+                    margin: 1%;
+                    padding: 1em;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                body {
+                    width: 90%;
+                    margin: 0 auto;
+                    text-align: center;
+                    overflow: auto;
+                }
+                #nav, #icon {
+                    float: left;
+                    width: 44.2%;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                .feature1, .feature2, .feature3 {
+                    float: left;
+                    width: 27.5%;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                .column1, .column2, .column3, .column4 {
+                    float: left;
+                    width: 19.2%;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                .instagram, .twitter, .linkedin, .github, .lightroom, .youtube {
+                    float: left;
+                    width: 10.9%;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+            </style>
+        </head>
+        <body>
+            <div id="header">
+                <h1>Header</h1>
+                <div id="nav">
+                    <p>Nav</p>
+                </div>
+                <div id="icon">
+                    <p>Icon</p>
+                </div>
+            </div>
+            <div id="content">
+                <div class="feature1">
+                    <p>Feature 1</p>
+                </div>
+                <div class="feature2">
+                    <p>Feature 2</p>
+                </div>
+                <div class="feature3">
+                    <p>Feature 3</p>
+                </div>
+            </div>
+            <div id="content2">
+                <div class="article column1">
+                    <p>Column 1</p>
+                </div>
+                <div class="article column2">
+                    <p>Column 2</p>
+                </div>
+                <div class="article column3">
+                    <p>Column 3</p>
+                </div>
+                <div class="article column4">
+                    <p>Column 4</p>
+                </div>
+            </div>
+            <div id="social">
+                <div class="instagram">
+                    <p>Instagram</p>
+                </div>
+                <div class="twitter">
+                    <p>Twitter</p>
+                </div>
+                <div class="linkedin">
+                    <p>LinkedIn</p>
+                </div>
+                <div class="github">
+                    <p>GitHub</p>
+                </div>
+                <div class="lightroom">
+                    <p>Lightroom</p>
+                </div>
+                <div class="youtube">
+                    <p>YouTube</p>
+                </div>
+            </div>
+        </body>
+    </html>
